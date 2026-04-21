@@ -3,94 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gustavo Henrique — Desenvolvedor Front-end</title>
+  <title>Gustavo Henrique — Dev Front-end</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- NAV -->
   <nav>
-    <div class="wrap">
-      <div class="nav-logo">GH</div>
-      <ul class="nav-links">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </div>
+    <a href="#" class="nav-logo">G<span>.</span>H</a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato" class="nav-cta">Contato</a></li>
+    </ul>
   </nav>
 
   <!-- HERO -->
-  <section class="hero" style="border-top: none; position: relative;">
-    <div class="wrap">
-      <div class="hero-eyebrow">Desenvolvedor Front-end</div>
-      <h1>
-        Gustavo<br>
-        <em>Henrique</em>
-      </h1>
-      <p class="hero-desc">
-        Interfaces modernas, responsivas e intuitivas.
-        Estudante de Análise e Desenvolvimento de Sistemas com foco em front-end e experiência do usuário.
-      </p>
-      <div class="hero-actions">
-        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
-        <a href="https://www.linkedin.com/in/gustavo-henrique-3916ba297/" target="_blank" class="btn btn-ghost">LinkedIn ↗</a>
-        <div class="available-tag">Disponível para estágio</div>
+  <section id="hero">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="hero-inner">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Disponível para estágio — Presencial (Joinville) ou Remoto
       </div>
-    </div>
-    <div class="scroll-hint">
-      <div class="scroll-hint-line"></div>
+      <h1>Gustavo<br /><em>Henrique</em></h1>
+      <p class="hero-desc">
+        Desenvolvedor front-end focado em interfaces modernas, responsivas
+        e com boa experiência de uso. Cursando ADS e construindo produtos reais.
+      </p>
+      <div class="hero-btns">
+        <a href="#projetos" class="btn btn-green">Ver projetos</a>
+        <a href="https://www.linkedin.com/in/gustavo-henrique-3916ba297/" target="_blank" class="btn btn-border">LinkedIn ↗</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-n">4</div>
+          <div class="stat-l">Projetos</div>
+        </div>
+        <div>
+          <div class="stat-n">ADS</div>
+          <div class="stat-l">Cursando</div>
+        </div>
+        <div>
+          <div class="stat-n">SC</div>
+          <div class="stat-l">Joinville</div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- SOBRE -->
   <section id="sobre">
     <div class="wrap">
-      <div class="section-label">Sobre</div>
-      <div class="about-grid">
-        <div class="about-text fade-up">
+      <div class="sec-label">Sobre mim</div>
+      <h2>Código que <em>funciona</em><br />e design que comunica</h2>
+      <div class="sobre-grid">
+        <div class="sobre-text reveal">
           <p>
-            Sou apaixonado por criar experiências digitais que unem
-            <strong>design e código</strong>. Meu foco está em interfaces que
-            funcionam bem e parecem certas — em qualquer dispositivo.
+            Sou apaixonado por criar interfaces que unem <strong>design e código</strong>.
+            Meu foco está em produtos que funcionam bem e parecem certos — em qualquer dispositivo.
           </p>
           <p>
-            Estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong>
-            e construindo meu portfólio com projetos reais enquanto busco minha
-            primeira oportunidade na área.
+            Estou no curso de <strong>Análise e Desenvolvimento de Sistemas</strong> e venho
+            construindo projetos reais para consolidar o que aprendo na teoria. Gosto de pensar
+            nos detalhes — desde a estrutura do HTML até a fluidez de uma animação.
           </p>
           <p>
-            Gosto de lógica de programação, resolver problemas de usabilidade e
-            aprender com profissionais mais experientes. Curioso por natureza,
-            sempre em evolução.
+            Busco minha primeira oportunidade de estágio para aprender com profissionais
+            experientes e contribuir com projetos que chegam às mãos de usuários de verdade.
           </p>
         </div>
-        <div class="about-right fade-up">
-          <div class="stat-list">
-            <div class="stat-item">
-              <span class="stat-key">Formação</span>
-              <span class="stat-val">ADS — em andamento</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-key">Foco</span>
-              <span class="stat-val">Front-end</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-key">Projetos</span>
-              <span class="stat-val">4 concluídos</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-key">Localização</span>
-              <span class="stat-val">Brasil</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-key">Status</span>
-              <span class="stat-val" style="color: var(--green);">● Aberto a oportunidades</span>
-            </div>
+        <div class="info-cards reveal">
+          <div class="info-card">
+            <div class="ic-label">Formação</div>
+            <div class="ic-value">ADS — em andamento</div>
+          </div>
+          <div class="info-card">
+            <div class="ic-label">Localização</div>
+            <div class="ic-value">Joinville, SC</div>
+          </div>
+          <div class="info-card">
+            <div class="ic-label">Foco</div>
+            <div class="ic-value">Front-end</div>
+          </div>
+          <div class="info-card">
+            <div class="ic-label">Status</div>
+            <div class="ic-value" style="color:#c8f060">● Aberto a vagas</div>
           </div>
         </div>
       </div>
@@ -100,64 +103,92 @@
   <!-- PROJETOS -->
   <section id="projetos">
     <div class="wrap">
-      <div class="section-label">Projetos</div>
-      <div class="section-title fade-up">Trabalhos <em>selecionados</em></div>
-      <div class="projects-list fade-up">
+      <div class="sec-label">Trabalhos</div>
+      <h2>Projetos <em>selecionados</em></h2>
+      <div class="proj-grid">
 
-        <a class="project-row" href="https://ogustavohs.github.io/Site-Loja-de-Video-Games/" target="_blank">
-          <div>
-            <div class="project-num">01</div>
-            <div class="project-name">Loja de Video Games</div>
-            <div class="project-desc">Site fictício de uma loja de manutenção, compra e venda de games e consoles. Design moderno com foco em conversão.</div>
-            <div class="project-tags">
-              <span class="project-tag">HTML</span>
-              <span class="project-tag">CSS</span>
-              <span class="project-tag">JavaScript</span>
+        <!-- TrainLab DESTAQUE -->
+        <div class="proj-card featured reveal">
+          <div class="feat-content">
+            <span class="proj-featured-badge">✦ Destaque</span>
+            <div class="proj-num">01</div>
+            <div class="proj-title">TrainLab</div>
+            <p class="proj-desc">
+              Plataforma de treinos personalizados com avaliação de perfil, exercícios ilustrados
+              e cronômetro integrado. Aprendi a pensar em produto completo — do fluxo de onboarding
+              ao design de cada componente de UI.
+            </p>
+            <div class="proj-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">UI Design</span>
+            </div>
+            <div class="proj-btns">
+              <a href="https://ogustavohs.github.io/TrainLab/" target="_blank" class="proj-btn green">↗ Ver projeto</a>
+              <a href="https://github.com/oGustavohs/TrainLab" target="_blank" class="proj-btn outline">⌥ GitHub</a>
             </div>
           </div>
-          <div class="project-arrow">↗</div>
-        </a>
+          <div class="feat-thumb">TrainLab</div>
+        </div>
 
-        <a class="project-row" href="https://ogustavohs.github.io/Site-Marcenaria-Drase/" target="_blank">
-          <div>
-            <div class="project-num">02</div>
-            <div class="project-name">Drase Interiores</div>
-            <div class="project-desc">Site institucional para marcenaria de móveis sob medida. Layout elegante com foco em apresentação de portfólio de produtos.</div>
-            <div class="project-tags">
-              <span class="project-tag">HTML</span>
-              <span class="project-tag">CSS</span>
-              <span class="project-tag">JavaScript</span>
-            </div>
+        <!-- Loja de Video Games -->
+        <div class="proj-card reveal">
+          <div class="proj-num">02</div>
+          <div class="proj-title">Loja de Video Games</div>
+          <p class="proj-desc">
+            Site fictício de loja de games e consoles com foco em conversão.
+            Exercitei organização de layout com CSS Grid e hierarquia visual para guiar o usuário.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
           </div>
-          <div class="project-arrow">↗</div>
-        </a>
+          <div class="proj-btns">
+            <a href="https://ogustavohs.github.io/Site-Loja-de-Video-Games/" target="_blank" class="proj-btn green">↗ Ver projeto</a>
+            <a href="https://github.com/oGustavohs/Site-Loja-de-Video-Games" target="_blank" class="proj-btn outline">⌥ GitHub</a>
+          </div>
+        </div>
 
-        <a class="project-row" href="https://ogustavohs.github.io/Quem-est-assistindo---Netflix/" target="_blank">
-          <div>
-            <div class="project-num">03</div>
-            <div class="project-name">Interface Netflix</div>
-            <div class="project-desc">Recriação da interface de seleção de perfil da Netflix, desenvolvida durante a Imersão Front-End da Alura.</div>
-            <div class="project-tags">
-              <span class="project-tag">HTML</span>
-              <span class="project-tag">CSS</span>
-              <span class="project-tag">JavaScript</span>
-            </div>
+        <!-- Drase Interiores -->
+        <div class="proj-card reveal">
+          <div class="proj-num">03</div>
+          <div class="proj-title">Drase Interiores</div>
+          <p class="proj-desc">
+            Site institucional para marcenaria de móveis sob medida.
+            Desafio de criar um layout elegante que transmitisse credibilidade
+            e apresentasse o portfólio de produtos.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
           </div>
-          <div class="project-arrow">↗</div>
-        </a>
+          <div class="proj-btns">
+            <a href="https://ogustavohs.github.io/Site-Marcenaria-Drase/" target="_blank" class="proj-btn green">↗ Ver projeto</a>
+            <a href="https://github.com/oGustavohs/Site-Marcenaria-Drase" target="_blank" class="proj-btn outline">⌥ GitHub</a>
+          </div>
+        </div>
 
-        <a class="project-row" href="https://ogustavohs.github.io/Cart-o-de-Visitas/" target="_blank">
-          <div>
-            <div class="project-num">04</div>
-            <div class="project-name">Cartão de Visita Digital</div>
-            <div class="project-desc">Cartão de visita digital com informações de contato e redes sociais para uma corretora de imóveis.</div>
-            <div class="project-tags">
-              <span class="project-tag">HTML</span>
-              <span class="project-tag">CSS</span>
-            </div>
+        <!-- Cartão de Visita -->
+        <div class="proj-card reveal" style="grid-column: span 2;">
+          <div class="proj-num">04</div>
+          <div class="proj-title">Cartão de Visita Digital</div>
+          <p class="proj-desc">
+            Cartão digital responsivo para corretora de imóveis com links de contato e redes sociais.
+            Projeto focado em simplicidade e usabilidade mobile-first.
+          </p>
+          <div class="proj-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Mobile-first</span>
           </div>
-          <div class="project-arrow">↗</div>
-        </a>
+          <div class="proj-btns">
+            <a href="https://ogustavohs.github.io/Cart-o-de-Visitas/" target="_blank" class="proj-btn green">↗ Ver projeto</a>
+            <a href="https://github.com/oGustavohs/Cart-o-de-Visitas" target="_blank" class="proj-btn outline">⌥ GitHub</a>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -166,39 +197,70 @@
   <!-- HABILIDADES -->
   <section id="habilidades">
     <div class="wrap">
-      <div class="section-label">Habilidades</div>
-      <div class="section-title fade-up">Stack <em>técnica</em></div>
-      <div class="skills-grid fade-up" id="skills-grid">
-        <div class="skill-cell">
-          <div class="skill-name">HTML5</div>
-          <div class="skill-level">Intermediário</div>
-          <div class="skill-bar"><div class="skill-fill" data-w="0.78"></div></div>
+      <div class="sec-label">Stack técnica</div>
+      <h2>O que eu <em>domino</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div>
+            <div class="skill-name">HTML5</div>
+            <div class="skill-lvl">Intermediário</div>
+          </div>
+          <div class="dots">
+            <div class="d-on"></div><div class="d-on"></div><div class="d-on"></div><div class="d-off"></div><div class="d-off"></div>
+          </div>
         </div>
-        <div class="skill-cell">
-          <div class="skill-name">CSS3</div>
-          <div class="skill-level">Intermediário</div>
-          <div class="skill-bar"><div class="skill-fill" data-w="0.74"></div></div>
+
+        <div class="skill-card reveal">
+          <div>
+            <div class="skill-name">CSS3</div>
+            <div class="skill-lvl">Intermediário</div>
+          </div>
+          <div class="dots">
+            <div class="d-on"></div><div class="d-on"></div><div class="d-on"></div><div class="d-off"></div><div class="d-off"></div>
+          </div>
         </div>
-        <div class="skill-cell">
-          <div class="skill-name">JavaScript</div>
-          <div class="skill-level">Básico — Intermediário</div>
-          <div class="skill-bar"><div class="skill-fill" data-w="0.55"></div></div>
+
+        <div class="skill-card reveal">
+          <div>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-lvl">Básico — Intermediário</div>
+          </div>
+          <div class="dots">
+            <div class="d-on"></div><div class="d-on"></div><div class="d-off"></div><div class="d-off"></div><div class="d-off"></div>
+          </div>
         </div>
-        <div class="skill-cell">
-          <div class="skill-name">Python</div>
-          <div class="skill-level">Básico</div>
-          <div class="skill-bar"><div class="skill-fill" data-w="0.35"></div></div>
+
+        <div class="skill-card reveal">
+          <div>
+            <div class="skill-name">Git & GitHub</div>
+            <div class="skill-lvl">Intermediário</div>
+          </div>
+          <div class="dots">
+            <div class="d-on"></div><div class="d-on"></div><div class="d-on"></div><div class="d-off"></div><div class="d-off"></div>
+          </div>
         </div>
-        <div class="skill-cell">
-          <div class="skill-name">SQL</div>
-          <div class="skill-level">Básico</div>
-          <div class="skill-bar"><div class="skill-fill" data-w="0.3"></div></div>
+
+        <div class="skill-card reveal">
+          <div>
+            <div class="skill-name">Python</div>
+            <div class="skill-lvl">Básico</div>
+          </div>
+          <div class="dots">
+            <div class="d-on"></div><div class="d-off"></div><div class="d-off"></div><div class="d-off"></div><div class="d-off"></div>
+          </div>
         </div>
-        <div class="skill-cell">
-          <div class="skill-name">Git & GitHub</div>
-          <div class="skill-level">Intermediário</div>
-          <div class="skill-bar"><div class="skill-fill" data-w="0.6"></div></div>
+
+        <div class="skill-card reveal">
+          <div>
+            <div class="skill-name">SQL</div>
+            <div class="skill-lvl">Básico</div>
+          </div>
+          <div class="dots">
+            <div class="d-on"></div><div class="d-off"></div><div class="d-off"></div><div class="d-off"></div><div class="d-off"></div>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -206,39 +268,14 @@
   <!-- CONTATO -->
   <section id="contato">
     <div class="wrap">
-      <div class="section-label">Contato</div>
-      <div class="contact-inner">
-        <div class="contact-left fade-up">
-          <div class="section-title">Vamos <em>conversar</em></div>
-          <p class="contact-sub">
-            Estou buscando oportunidade de estágio em front-end.
-            Se você tem uma vaga ou quer trocar uma ideia sobre tecnologia, me chame.
-          </p>
-          <div class="contact-links">
-            <a class="contact-link" href="mailto:Gustavohsdev@gmail.com">
-              <span>Gustavohsdev@gmail.com</span>
-              <span class="contact-link-arrow">↗</span>
-            </a>
-            <a class="contact-link" href="https://www.linkedin.com/in/gustavo-henrique-3916ba297/" target="_blank">
-              <span>LinkedIn</span>
-              <span class="contact-link-arrow">↗</span>
-            </a>
-            <a class="contact-link" href="https://github.com/oGustavohs" target="_blank">
-              <span>GitHub</span>
-              <span class="contact-link-arrow">↗</span>
-            </a>
-          </div>
-        </div>
-        <div class="contact-right fade-up">
-          <label>Nome</label>
-          <input type="text" placeholder="Seu nome" />
-          <label>E-mail</label>
-          <input type="email" placeholder="seu@email.com" />
-          <label>Mensagem</label>
-          <textarea placeholder="Olá Gustavo, gostaria de..."></textarea>
-          <a href="mailto:Gustavohsdev@gmail.com" class="btn btn-primary" style="width: 100%; justify-content: center;">
-            Enviar mensagem
-          </a>
+      <div class="contato-box reveal">
+        <div class="sec-label">Contato</div>
+        <h2>Vamos <em>conversar</em></h2>
+        <p>Estou em busca de estágio em front-end. Se você tem uma vaga ou quer trocar uma ideia, me chame.</p>
+        <div class="contato-links">
+          <a href="mailto:Gustavohsdev@gmail.com" class="btn btn-green">Gustavohsdev@gmail.com</a>
+          <a href="https://www.linkedin.com/in/gustavo-henrique-3916ba297/" target="_blank" class="btn btn-border">LinkedIn ↗</a>
+          <a href="https://github.com/oGustavohs" target="_blank" class="btn btn-border">GitHub ↗</a>
         </div>
       </div>
     </div>
@@ -246,12 +283,27 @@
 
   <!-- FOOTER -->
   <footer>
-    <div class="wrap">
-      <div class="footer-copy">© 2025 Gustavo Henrique</div>
-      <div class="footer-made">Feito com HTML, CSS & JS</div>
-    </div>
+    <p>© 2026 Gustavo Henrique</p>
+    <p>Feito com HTML, CSS & JS</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+  // Scroll Reveal
+  document.addEventListener("DOMContentLoaded", function() {
+    var reveals = document.querySelectorAll(".reveal");
+    if ("IntersectionObserver" in window) {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry, i) {
+          if (entry.isIntersecting) {
+            setTimeout(function() { entry.target.classList.add("visible"); }, i * 90);
+          }
+        });
+      }, { threshold: 0.08 });
+      reveals.forEach(function(el) { observer.observe(el); });
+    } else {
+      reveals.forEach(function(el) { el.classList.add("visible"); });
+    }
+  });
+</script>
 </body>
 </html>
