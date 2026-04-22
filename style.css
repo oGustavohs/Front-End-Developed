@@ -626,3 +626,57 @@ footer p { font-size: 0.78rem; color: var(--muted); }
 @media (max-width: 480px) {
   .cert-grid { grid-template-columns: 1fr; }
 }
+
+.cert-plataforma {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* FOTO PERFIL */
+.foto-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem 1.75rem;
+  background: linear-gradient(135deg, #131a0d, #111);
+  border: 1px solid rgba(200,240,96,0.15);
+  border-radius: 16px;
+}
+
+.foto-perfil {
+  width: 110px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid rgba(200,240,96,0.5);
+  box-shadow: 0 0 30px rgba(200,240,96,0.15);
+  flex-shrink: 0;
+}
+
+.foto-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.foto-nome {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: var(--text);
+}
+
+.foto-cargo {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .foto-wrapper { flex-direction: column; text-align: center; }
+  .foto-perfil { width: 100px; height: 100px; }
+}
