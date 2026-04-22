@@ -510,13 +510,26 @@ footer p { font-size: 0.78rem; color: var(--muted); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* Garante que elementos com fadeUp ficam visíveis após animação */
+.badge, h1, .hero-desc, .hero-btns, .hero-stats {
+  animation-fill-mode: both;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(28px);
   transition: opacity 0.55s ease, transform 0.55s ease;
 }
 
-.reveal.visible { opacity: 1; transform: none; }
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Fallback: se JS não carregar, mostra tudo */
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; }
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -533,4 +546,83 @@ footer p { font-size: 0.78rem; color: var(--muted); }
   .skills-grid { grid-template-columns: 1fr 1fr; }
   .contato-box { padding: 2.5rem 1.5rem; }
   footer { flex-direction: column; gap: 0.4rem; text-align: center; }
+}
+
+/* CERTIFICADOS */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.cert-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.cert-card:hover { transform: translateY(-4px); border-color: #2e2e2e; }
+
+.cert-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cert-badge {
+  background: rgba(200,240,96,0.1);
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.7rem;
+  border-radius: 100px;
+}
+
+.cert-horas {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.cert-title {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text);
+  flex: 1;
+}
+
+.cert-date {
+  font-size: 0.72rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.cert-link {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s;
+  margin-top: 0.25rem;
+}
+
+.cert-link:hover { opacity: 0.7; }
+
+@media (max-width: 768px) {
+  .cert-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .cert-grid { grid-template-columns: 1fr; }
 }
