@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
 }
 
-/* NAV */
+
 nav {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -74,7 +74,7 @@ nav {
   font-weight: 700 !important;
 }
 
-/* HERO */
+
 #hero {
   min-height: 100vh;
   display: flex;
@@ -205,7 +205,6 @@ h1 em { font-style: normal; color: var(--accent); }
   letter-spacing: 0.07em;
 }
 
-/* SECTIONS */
 section { padding: 6rem 2.5rem; }
 .wrap { max-width: 900px; margin: 0 auto; }
 
@@ -229,7 +228,7 @@ h2 {
 
 h2 em { font-style: normal; color: var(--accent); }
 
-/* SOBRE */
+
 #sobre {
   background: var(--surface);
   border-top: 1px solid var(--border);
@@ -280,7 +279,7 @@ h2 em { font-style: normal; color: var(--accent); }
   font-size: 0.9rem;
 }
 
-/* PROJETOS */
+
 .proj-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -406,7 +405,6 @@ h2 em { font-style: normal; color: var(--accent); }
 .proj-btn.outline { border: 1px solid var(--border); color: var(--muted); }
 .proj-btn.outline:hover { border-color: #444; color: var(--text); }
 
-/* HABILIDADES */
 #habilidades {
   background: var(--surface);
   border-top: 1px solid var(--border);
@@ -457,7 +455,7 @@ h2 em { font-style: normal; color: var(--accent); }
 .d-on { background: var(--accent); }
 .d-off { background: var(--border); }
 
-/* CONTATO */
+
 .contato-box {
   background: linear-gradient(135deg, #0f0f0f, #131a0d);
   border: 1px solid rgba(200,240,96,0.14);
@@ -493,7 +491,7 @@ h2 em { font-style: normal; color: var(--accent); }
   flex-wrap: wrap;
 }
 
-/* FOOTER */
+
 footer {
   padding: 1.75rem 2.5rem;
   border-top: 1px solid var(--border);
@@ -504,13 +502,13 @@ footer {
 
 footer p { font-size: 0.78rem; color: var(--muted); }
 
-/* REVEAL ANIMATION */
+
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(22px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Garante que elementos com fadeUp ficam visíveis após animação */
+
 .badge, h1, .hero-desc, .hero-btns, .hero-stats {
   animation-fill-mode: both;
 }
@@ -526,12 +524,11 @@ footer p { font-size: 0.78rem; color: var(--muted); }
   transform: none;
 }
 
-/* Fallback: se JS não carregar, mostra tudo */
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; }
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
   nav { padding: 1rem 1.25rem; }
   .nav-links { display: none; }
@@ -548,7 +545,7 @@ footer p { font-size: 0.78rem; color: var(--muted); }
   footer { flex-direction: column; gap: 0.4rem; text-align: center; }
 }
 
-/* CERTIFICADOS */
+
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -635,7 +632,7 @@ footer p { font-size: 0.78rem; color: var(--muted); }
   letter-spacing: 0.08em;
 }
 
-/* FOTO PERFIL */
+
 .foto-wrapper {
   display: flex;
   align-items: center;
