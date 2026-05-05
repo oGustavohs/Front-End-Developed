@@ -1,60 +1,48 @@
-# Gustavo Henrique — Portfólio Front-end
+# Portfólio — Gustavo Henrique
 
-Portfólio pessoal desenvolvido com HTML, CSS e JavaScript puro. Apresenta meus projetos, certificados, habilidades e formas de contato.
+Construí esse portfólio do zero porque queria que ele fosse mais do que uma lista de links. Queria que tivesse identidade — que refletisse como eu penso sobre design e código ao mesmo tempo.
 
-🔗 **[Ver online](https://ogustavohs.github.io/Front-End-Developed/)**
+Nenhum template, nenhum gerador. HTML, CSS e JavaScript puro.
 
----
-
-## 🛠️ Tecnologias utilizadas
-
-- HTML5
-- CSS3 (Flexbox, Grid, animações, responsivo)
-- JavaScript (Intersection Observer API)
-- Google Fonts (Syne + DM Sans)
+**[→ Ver online](https://ogustavohs.github.io/Front-End-Developed/)**
 
 ---
 
-## 📁 Estrutura do projeto
+## O que tem aqui
+
+Uma página única com navegação por âncoras, animações acionadas por scroll usando Intersection Observer, seção de projetos com descrição real de cada um, certificados verificáveis e formas de contato diretas.
+
+Responsivo — funciona bem no celular, no tablet e no desktop.
+
+---
+
+## Stack
 
 ```
-Front-End-Developed/
-├── index.html
-├── style.css
-└── README.md
+index.html   → estrutura semântica, acessibilidade
+style.css    → Flexbox, Grid, animações, media queries
+             → tipografia: Syne + DM Sans (Google Fonts)
 ```
 
----
-
-## 📌 Projetos em destaque
-
-| Projeto | Tecnologias | Link |
-|---|---|---|
-| TrainLab | HTML, CSS, JS | [Ver](https://ogustavohs.github.io/TrainLab/) |
-| Loja de Video Games | HTML, CSS, JS | [Ver](https://ogustavohs.github.io/Site-Loja-de-Video-Games/) |
-| Drase Interiores | HTML, CSS, JS | [Ver](https://ogustavohs.github.io/Site-Marcenaria-Drase/) |
-| Cartão de Visita Digital | HTML, CSS | [Ver](https://ogustavohs.github.io/Cart-o-de-Visitas/) |
+Sem framework. A restrição foi proposital — queria dominar o básico antes de depender de abstração.
 
 ---
 
-## 🎓 Certificados — Alura
+## Projetos que aparecem aqui
 
-| Curso | Carga Horária | Conclusão |
-|---|---|---|
-| HTML e CSS: Ambiente, Estrutura e Estilo | 20h | Abril/2026 |
-| HTML e CSS: Praticando HTML/CSS | 8h | Fevereiro/2026 |
-| Internet: Entendendo os Fundamentos da Web | 8h | Fevereiro/2026 |
-| DevOps: Trabalhando com Repositórios no GitHub | 8h | Fevereiro/2026 |
-| Pensamento Computacional: Fundamentos e Lógica | 8h | Janeiro/2026 |
-| Carreira Node.js: Boas-vindas e Primeiros Passos | 2h | Janeiro/2026 |
-| JavaScript: Explorando a Linguagem | 10h | Setembro/2025 |
-| Lógica de Programação com JavaScript | 6h | Agosto/2025 |
-| Começando em Programação: Carreira e Primeiros Passos | 1h | Agosto/2025 |
+| Projeto | O que é |
+|---|---|
+| [TrainLab](https://ogustavohs.github.io/TrainLab/) | Plataforma de treinos com avaliação de perfil e cronômetro |
+| [Vinicius Matos Barber](https://ogustavohs.github.io/Vinicius-Matos-Barbeiro/) | Site para cliente real com sistema de agendamento |
+| [App de Clima](https://ogustavohs.github.io/App-Clima/) | Consumo de API com fundo dinâmico por condição climática |
+| [Jogo de Adivinhação](https://ogustavohs.github.io/JogoAdvinha-o/) | Lógica de programação e manipulação de DOM |
 
 ---
 
-## 📬 Contato
+## Contato
 
-- Email: Gustavohsdev@gmail.com
-- LinkedIn: [gustavo-henrique-3916ba297](https://www.linkedin.com/in/gustavo-henrique-3916ba297/)
-- GitHub: [@oGustavohs](https://github.com/oGustavohs)
+**Gustavo Henrique** · Desenvolvedor Front-End · Joinville, SC
+
+[Gustavohsdev@gmail.com](mailto:Gustavohsdev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gustavo-henrique-3916ba297/) · [GitHub](https://github.com/oGustavohs)
+
+Aberto a estágios — presencial em Joinville ou remoto.
